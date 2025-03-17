@@ -54,8 +54,6 @@ The purpose of this group is to support coordination activities between IETF and
 
 As stated in RFC3113, 3GPP has identified the benefit of adopting Internet specifications and the preferred 3GPP approach is to use the Internet standards unchanged, if feasible.  In any case, 3GPP has no intention to duplicate work performed in IETF. While this is the preferred scenario, 3GPP recognizes that additions or modifications might be needed in order to make the IETF internet specification fulfill the needs of 3GPP, and in such cases, these concerns will be directly brought up at the IETF-3GPP administrative support group to be addressed by the relevant IETF areas and WGs. This document also reiterates the principle that informal communication at working level is encouraged whenever possible, and formal communications are to be used only when deemed necessary. 
 
-{::boilerplate bcp14-tagged}
-
 # Changes from RFC3113
 
 * Added info about IAB Administrative support groups
