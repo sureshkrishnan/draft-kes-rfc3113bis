@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-08-26T01:58:58.100421+00:00",
+  "timestamp": "2025-08-28T01:54:28.250716+00:00",
   "repo": "sureshkrishnan/draft-kes-rfc3113bis",
   "labels": [
     {
@@ -50,5 +50,79 @@
     }
   ],
   "issues": [],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOOJrwsc6lZ4T4",
+      "title": "proposed rewrite by Mirja",
+      "url": "https://github.com/sureshkrishnan/draft-kes-rfc3113bis/pull/1",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-08-26T12:46:35Z",
+      "updatedAt": "2025-08-26T13:01:20Z",
+      "baseRepository": "sureshkrishnan/draft-kes-rfc3113bis",
+      "baseRefName": "main",
+      "baseRefOid": "17058b950690318550a294cddae7e97dac2b9184",
+      "headRepository": "mirjak/draft-kes-rfc3113bis",
+      "headRefName": "patch-1",
+      "headRefOid": "431601f704eae3a780d17128f87181d9ea2d6b84",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOOJrwsc68FXp6",
+          "commit": {
+            "abbreviatedOid": "3ed11d0"
+          },
+          "author": "mirjak",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-08-26T13:01:06Z",
+          "updatedAt": "2025-08-26T13:01:06Z",
+          "comments": [
+            {
+              "originalPosition": 17,
+              "body": "```suggestion\r\nThe IETF and 3GPP formalized a set of principles and guidelines for co-operation in {{?RFC3113}}. While the high level principles remain intact in the collaboration, many of the details in that document have become out of date due to changes in the organizational structures of both, IETF and 3GPP, as well as in the way the coordination activities are conducted in practice. E.g. both the IETF and 3GPP have reorganized and renamed areas so that the RFC3113 contains incorrect and misleading information. The document access mechanisms have also been changed even as the open access principles still remain intact. It is also difficult to keep this information up to date due to the fairly dynamic nature of both of the SDOs. This document intends to reiterate the high level principles of co-operation and the co-ordination mechanisms while leaving out the detailed descriptions to be specified and maintained by the co-ordination function itself.\r\n```",
+              "createdAt": "2025-08-26T13:01:06Z",
+              "updatedAt": "2025-08-26T13:01:06Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": "PR_kwDOOJrwsc6laCIz",
+      "title": "Proposed alternative shorter doc",
+      "url": "https://github.com/sureshkrishnan/draft-kes-rfc3113bis/pull/2",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-08-26T13:00:23Z",
+      "updatedAt": "2025-08-26T13:00:23Z",
+      "baseRepository": "sureshkrishnan/draft-kes-rfc3113bis",
+      "baseRefName": "main",
+      "baseRefOid": "17058b950690318550a294cddae7e97dac2b9184",
+      "headRepository": "mirjak/draft-kes-rfc3113bis",
+      "headRefName": "patch-2",
+      "headRefOid": "8296e62e6e68c4c0dcfc48fe8c206e07e02fe260",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    }
+  ]
 }
