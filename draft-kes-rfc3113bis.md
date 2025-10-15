@@ -63,7 +63,8 @@ any liaison coordination between IETF and 3GPP.
 In addition, the IAB has the ability to host meetings or groups that supports
 a liaison relationship or process. At the time of publication of this document,
 the IAB maintains a group that is led jointly by the respective liaison managers from
-both organizations, IETF and 3GPP.
+both organizations, IETF and 3GPP. All current groups are listed here:
+https://www.iab.org/programs/administrative-support-groups/
 
 # 3GPP liaison coordination with IETF
 
