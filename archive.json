@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-10-14T01:52:52.386665+00:00",
+  "timestamp": "2025-10-16T01:54:12.208612+00:00",
   "repo": "sureshkrishnan/draft-kes-rfc3113bis",
   "labels": [
     {
@@ -56,24 +56,26 @@
       "id": "PR_kwDOOJrwsc6lZ4T4",
       "title": "proposed rewrite by Mirja",
       "url": "https://github.com/sureshkrishnan/draft-kes-rfc3113bis/pull/1",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "mirjak",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-08-26T12:46:35Z",
-      "updatedAt": "2025-08-26T13:01:20Z",
+      "updatedAt": "2025-10-15T14:22:40Z",
       "baseRepository": "sureshkrishnan/draft-kes-rfc3113bis",
       "baseRefName": "main",
       "baseRefOid": "17058b950690318550a294cddae7e97dac2b9184",
       "headRepository": "mirjak/draft-kes-rfc3113bis",
       "headRefName": "patch-1",
-      "headRefOid": "431601f704eae3a780d17128f87181d9ea2d6b84",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "4ed4e728cde87cd5f9e205850d1d0aaa9a188f51",
+      "closedAt": "2025-10-15T14:22:40Z",
+      "mergedAt": "2025-10-15T14:22:40Z",
+      "mergedBy": "sureshkrishnan",
+      "mergeCommit": {
+        "oid": "3a011930757724a538c40d2c55e946b55f266f8c"
+      },
       "comments": [],
       "reviews": [
         {
@@ -82,7 +84,7 @@
             "abbreviatedOid": "3ed11d0"
           },
           "author": "mirjak",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "COMMENTED",
           "body": "",
           "createdAt": "2025-08-26T13:01:06Z",
@@ -95,6 +97,26 @@
               "updatedAt": "2025-08-26T13:01:06Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOOJrwsc7HHs-V",
+          "commit": {
+            "abbreviatedOid": "431601f"
+          },
+          "author": "mirjak",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-10-15T14:21:09Z",
+          "updatedAt": "2025-10-15T14:21:09Z",
+          "comments": [
+            {
+              "originalPosition": 38,
+              "body": "```suggestion\r\nboth organizations, IETF and 3GPP. All current groups are listed here:\r\nhttps://www.iab.org/programs/administrative-support-groups/\r\n```",
+              "createdAt": "2025-10-15T14:21:09Z",
+              "updatedAt": "2025-10-15T14:21:09Z"
+            }
+          ]
         }
       ]
     },
@@ -103,25 +125,33 @@
       "id": "PR_kwDOOJrwsc6laCIz",
       "title": "Proposed alternative shorter doc",
       "url": "https://github.com/sureshkrishnan/draft-kes-rfc3113bis/pull/2",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-08-26T13:00:23Z",
-      "updatedAt": "2025-08-26T13:00:23Z",
+      "updatedAt": "2025-10-15T14:20:55Z",
       "baseRepository": "sureshkrishnan/draft-kes-rfc3113bis",
       "baseRefName": "main",
       "baseRefOid": "17058b950690318550a294cddae7e97dac2b9184",
       "headRepository": "mirjak/draft-kes-rfc3113bis",
       "headRefName": "patch-2",
       "headRefOid": "8296e62e6e68c4c0dcfc48fe8c206e07e02fe260",
-      "closedAt": null,
+      "closedAt": "2025-10-15T14:20:25Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
+      "comments": [
+        {
+          "author": "sureshkrishnan",
+          "authorAssociation": "OWNER",
+          "body": "We discussed this in the IAB meeting and preferred more than a obseletes document.",
+          "createdAt": "2025-10-15T14:20:54Z",
+          "updatedAt": "2025-10-15T14:20:54Z"
+        }
+      ],
       "reviews": []
     }
   ]
