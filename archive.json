@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-03-10T02:38:03.345069+00:00",
+  "timestamp": "2026-03-12T02:43:04.584983+00:00",
   "repo": "sureshkrishnan/draft-kes-rfc3113bis",
   "labels": [
     {
@@ -71,16 +71,38 @@
       "id": "I_kwDOOJrwsc7xI1jI",
       "title": "obsolete RFC3131",
       "url": "https://github.com/sureshkrishnan/draft-kes-rfc3113bis/issues/4",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "Can we also use this draft to obsolete RFC3131 on 3GPP2 or would it be bad to mix these things up?",
       "createdAt": "2026-03-09T13:31:17Z",
-      "updatedAt": "2026-03-09T13:31:17Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2026-03-11T14:33:13Z",
+      "closedAt": "2026-03-11T14:30:04Z",
+      "comments": [
+        {
+          "author": "sureshkrishnan",
+          "authorAssociation": "OWNER",
+          "body": "I think this needs to be done separately. I do not think the two orgs are related other than the similarity in name. The technologies and the orgs are very different. 3GPP came from the GSM base and 3GPP2 came from the CDMA base.",
+          "createdAt": "2026-03-11T14:30:04Z",
+          "updatedAt": "2026-03-11T14:30:04Z"
+        },
+        {
+          "author": "mirjak",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Okay, but why did you close the issue then if this needs to be handled separately? We should start that process then.",
+          "createdAt": "2026-03-11T14:32:35Z",
+          "updatedAt": "2026-03-11T14:32:35Z"
+        },
+        {
+          "author": "mirjak",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Ah, sorry, you are right this is not an issue for RFC3113 but in the liaison coordination tracker...",
+          "createdAt": "2026-03-11T14:33:13Z",
+          "updatedAt": "2026-03-11T14:33:13Z"
+        }
+      ]
     }
   ],
   "pulls": [
