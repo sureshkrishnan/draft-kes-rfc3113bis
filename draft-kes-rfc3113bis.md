@@ -12,7 +12,7 @@ venue:
   group: "Internet Architecture Board"
   type: "Internet Engineering Task Force"
   mail: "iab@iab.org"
-  
+
 author:
  -
     fullname: Suresh Krishnan
@@ -31,7 +31,15 @@ normative:
   RFC3113:
 
 informative:
-
+  RFC2850:
+  IAB-ADMIN:
+    target: https://www.iab.org/programs/administrative-support-groups/
+    title: "Administrative Support Groups"
+    author:
+      -
+        ins:  IAB
+        name: Internet Architecture Board
+    date: July 2026
 
 --- abstract
 
@@ -47,11 +55,11 @@ be specified and maintained by the coordination function itself.
 
 # Introduction
 
-The IETF and 3GPP formalized a set of principles and guidelines for co-operation in {{?RFC3113}}. While the high level principles remain intact in the collaboration, many of the details in that document have become out of date due to changes in the organizational structures of both, IETF and 3GPP, as well as in the way the coordination activities are conducted in practice. E.g. both the IETF and 3GPP have reorganized and renamed areas so that the RFC3113 contains incorrect and misleading information. The document access mechanisms have also been changed even as the open access principles still remain intact. It is also difficult to keep this information up to date due to the fairly dynamic nature of both of the SDOs. This document intends to reiterate the high level principles of co-operation and the co-ordination mechanisms while leaving out the detailed descriptions to be specified and maintained by the co-ordination function itself.
+The IETF and 3GPP formalized a set of principles and guidelines for cooperation in {{RFC3113}}. While the high level principles remain intact in the collaboration, many of the details in that document have become out of date due to changes in the organizational structures of both, IETF and 3GPP, as well as in the way the coordination activities are conducted in practice. E.g. both the IETF and 3GPP have reorganized and renamed areas so that the RFC3113 contains incorrect and misleading information. The document access mechanisms have also been changed even as the open access principles still remain intact. It is also difficult to keep this information up to date due to the fairly dynamic nature of both of the SDOs. This document intends to reiterate the high level principles of cooperation and the coordination mechanisms while leaving out the detailed descriptions to be specified and maintained by the coordination function itself.
 
 # IETF liaison coordination with 3GPP
 
-As stated in [RFC28050], the IAB acts as representative of the interests of the IETF in technical liaison
+As stated in {{RFC2850}}, the IAB acts as representative of the interests of the IETF in technical liaison
 relationships with other organizations concerned with standards. As such the IAB
 is the main contact point for liaison management with other SDOs.
 
@@ -63,8 +71,8 @@ any liaison coordination between IETF and 3GPP.
 In addition, the IAB has the ability to host meetings or groups that supports
 a liaison relationship or process. At the time of publication of this document,
 the IAB maintains a group that is led jointly by the respective liaison managers from
-both organizations, IETF and 3GPP. All current groups are listed here:
-https://www.iab.org/programs/administrative-support-groups/
+both organizations, IETF and 3GPP. All current groups are listed at {{IAB-ADMIN}}:
+
 
 # 3GPP liaison coordination with IETF
 
@@ -91,7 +99,7 @@ leadership are encouraged and authorized to facilitate such
 communications when needed with the support of the liaison managers of both organizations.
 
 # Changes from RFC3113
- 
+
 * Details about Document sharing removed
 * Details about communication removed
 * Details about rapporteurs removed
@@ -110,3 +118,5 @@ This document has no IANA actions.
 
 # Acknowledgments
 {:numbered="false"}
+
+The authors would like to thank Mirja Kuehlewind and Lionel Morand for their valuable comments and suggestions to improve this document.
